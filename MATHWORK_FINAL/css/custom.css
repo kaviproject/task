@@ -1,0 +1,104 @@
+html, body { 
+  width: 100%; 
+  height: 300%;
+  padding: 0; 
+  margin: 0; 
+}
+
+#title
+{
+  background: blue;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  background:#66CCFF;
+}
+
+#inputcode { 
+  width: 100%;
+  height: 50%;
+  display: inline;
+}
+
+.text {
+    width:80%;
+    height: 400px;
+    background: #C0C0C0;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+
+#outputcode { 
+  width: 100%;
+  height: 50%;
+}
+
+#code {
+  width: 49%;
+  height: 400px;
+  float: left;
+  margin-top: 50px;
+  font-size: 15px;    
+  
+}
+
+#classes {
+  width: 49%;
+  height: 400px;
+  float: left;
+  margin-top: 50px;
+}
+
+#classname, #propertyname, #functionname {
+  border:2px solid;
+  margin-bottom: 1%;
+  font-size: 15px;
+}
+
+.myButton {
+ margin-left:45%; 
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#66CCFF;
+	-webkit-border-top-left-radius:31px;
+	-moz-border-radius-topleft:31px;
+	border-top-left-radius:31px;
+	-webkit-border-top-right-radius:31px;
+	-moz-border-radius-topright:31px;
+	border-top-right-radius:31px;
+	-webkit-border-bottom-right-radius:31px;
+	-moz-border-radius-bottomright:31px;
+	border-bottom-right-radius:31px;
+	-webkit-border-bottom-left-radius:31px;
+	-moz-border-radius-bottomleft:31px;
+	border-bottom-left-radius:31px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background: #66CCFF;
+}.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.highlight { background-color: yellow }
